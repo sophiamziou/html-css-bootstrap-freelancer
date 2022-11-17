@@ -3,3 +3,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.content, .content-title{
+    background-color: lightgray; 
+    width: 100%;
+}
+
+header{
+    height: 80px;
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .content{
+    height: 80px;
+}
+
+#about, #contact{
+    padding: 30px 0;
+}
+
+#jumbo{
+    margin-top: 80px;
+}
+
+#jumbo, #about{
+    background-color: green;
+}
+
+#jumbo .content{
+    height: 350px;
+}
+
+.content-title, footer .content, .bottom-bar .content{
+    height:  100px;
+}
+
+#portfolio .content, #about .content, #contact-us .content{
+    height: 200px;
+}
+
+footer{
+    background-color: navy;
+    padding: 30px 0 0 0;
+}
+
+.bottom-bar{
+    background-color: rgb(21, 21, 97);
+    padding: 20px 0;
+}
