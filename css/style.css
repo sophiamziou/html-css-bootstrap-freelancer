@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* MACRO STRUCTURE */
+
 .content, .content-title{
     background-color: lightgray; 
     width: 100%;
@@ -34,10 +36,6 @@ header .content{
     background-color: green;
 }
 
-#jumbo .content{
-    height: 350px;
-}
-
 .content-title, footer .content, .bottom-bar .content{
     height:  100px;
 }
@@ -54,4 +52,51 @@ footer{
 .bottom-bar{
     background-color: rgb(21, 21, 97);
     padding: 20px 0;
+}
+
+/* CONTENT STYLES */
+
+/* portfolio */
+
+#jumbo .content, #portfolio .content-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.star-line i{
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+img{
+    height: 300px;
+}
+
+.star-line {
+    text-align: center;
+}
+  
+.star-line span {
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.outer-line {
+    width: 100px;
+    border-bottom: 5px solid white;
+    border-radius: 20px;
+}
+
+.black-outer-line{
+    width: 100px;
+    border-bottom: 5px solid black;
+    border-radius: 20px;
 }
