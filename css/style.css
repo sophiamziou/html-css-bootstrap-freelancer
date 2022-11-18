@@ -7,13 +7,11 @@
 /* MACRO STRUCTURE */
 
 .content, .content-title{
-    background-color: lightgray; 
     width: 100%;
 }
 
 header{
     height: 80px;
-    background-color: navy;
     position: fixed;
     top: 0;
     left: 0;
@@ -33,32 +31,24 @@ header .content{
 }
 
 #jumbo, #about{
-    background-color: green;
-}
-
-.content-title, footer .content, .bottom-bar .content{
-    height:  100px;
-}
-
-#portfolio .content, #about .content, #contact-us .content{
-    height: 200px;
+    background-color: rgb(26,188,156);
 }
 
 footer{
-    background-color: navy;
+    background-color: rgb(58,84,109);
     padding: 30px 0 0 0;
 }
 
-.bottom-bar{
-    background-color: rgb(21, 21, 97);
+.bottom-bar, header {
+    background-color: rgb(44, 62, 80);
     padding: 20px 0;
 }
 
 /* CONTENT STYLES */
 
-/* portfolio */
+/* jumbotron and portfolio */
 
-#jumbo .content, #portfolio .content-title{
+#jumbo .content, .content-title, #button{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -76,7 +66,7 @@ footer{
     margin: 0 5px;
 }
 
-img{
+#jumbo img{
     height: 300px;
 }
 
@@ -99,4 +89,20 @@ img{
     width: 100px;
     border-bottom: 5px solid black;
     border-radius: 20px;
+}
+
+footer .content{
+    text-align: center;
+}
+
+footer i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.green_text{
+    color: rgb(26,188,156);
 }
