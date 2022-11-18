@@ -46,8 +46,6 @@ footer{
 
 /* CONTENT STYLES */
 
-/* jumbotron and portfolio */
-
 #jumbo .content, .content-title, #button{
     display: flex;
     justify-content: center;
