@@ -13,17 +13,20 @@
     <body>
         <header>
             <div class="container text-white">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="content">
-                            <p>START BOOTSRAP</p>
+                <div class="row justify-content-between">
+                    <div class="col-8 col-md-4">
+                        <div class="content text-start">
+                            <p class="m-0 fw-bold fs-5">START BOOTSRAP</p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="content">
-                            <span>PORTFOLIO</span>
-                            <span>ABOUT</span>
-                            <span>CONTACT</span>
+                    <div class="col-4 d-flex align-content-center">
+                        <div class="content text-end fw-bold header_menù d-none d-md-block">
+                            <span class="m-1">PORTFOLIO</span>
+                            <span class="m-1">ABOUT</span>
+                            <span class="m-1">CONTACT</span>
+                        </div>
+                        <div class="content text-end d-md-none">
+                            <i class="fas fa-bars fs-5"></i>
                         </div>
                     </div>
                 </div>
@@ -32,7 +35,7 @@
         <main>
             <section id="jumbo">
                 <div class="container text-white">
-                    <div class="row">
+                    <div class="row p-4">
                         <div class="col-12">
                             <div class="content">
                                 <img src="./img//avatar.svg" alt="avatar">
@@ -51,7 +54,7 @@
                 </div>
             </section>
             <section id="portfolio">
-                <div class="container text-black">
+                <div class="container text-black p-5">
                     <div class="row my-3">
                         <div class="col-12">
                             <div class="content-title">
@@ -64,35 +67,35 @@
                             </div>
                         </div>
                     </div>    
-                    <div class="row g-2">
+                    <div class="row g-4">
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/cabin.png" alt="cabin">
+                                <img class="img-fluid rounded" src="./img/cabin.png" alt="cabin">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/cake.png" alt="cake">
+                                <img class="img-fluid rounded" src="./img/cake.png" alt="cake">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/circus.png" alt="circus">
+                                <img class="img-fluid rounded" src="./img/circus.png" alt="circus">
                             </div>
                         </div> 
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/game.png" alt="game">
+                                <img class="img-fluid rounded" src="./img/game.png" alt="game">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/safe.png" alt="safe">
+                                <img class="img-fluid rounded" src="./img/safe.png" alt="safe">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="content">
-                                <img class="img-fluid" src="./img/submarine.png" alt="submarine">
+                                <img class="img-fluid rounded" src="./img/submarine.png" alt="submarine">
                             </div>
                         </div> 
                     </div> 
@@ -155,11 +158,11 @@
                         </div>
                         <div class="col-12">
                             <div class="content">
-                                <input type="name" class="form-control" placeholder="Name">
-                                <input type="email" class="form-control" placeholder="Email Address">
-                                <input type="number" class="form-control" placeholder="Phone Number">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                                <button type="submit" class="btn btn-success">Send</button>
+                                <input type="name" class="form-control border-none px-0 my-1" placeholder="Name">
+                                <input type="email" class="form-control border-none px-0 my-1" placeholder="Email Address">
+                                <input type="number" class="form-control border-none px-0 my-1" placeholder="Phone Number">
+                                <textarea class="form-control border-none px-0 my-1" rows="5" placeholder="Message"></textarea>
+                                <button type="submit" class="btn send border-none">Send</button>
                             </div>
                         </div>
                     </div>
@@ -168,7 +171,7 @@
         </main>
         <footer>
             <div class="container text-white">
-                <div class="row g-2">
+                <div class="row g-2 p-4">
                     <div class="col-12 col-md-4">
                         <div class="content">
                             <h5>LOCATION</h5>
